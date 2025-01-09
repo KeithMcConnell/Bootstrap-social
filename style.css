@@ -1,0 +1,29 @@
+/* Include Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css');
+
+/* Custom styles for responsiveness */
+body {
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .custom-class {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    .custom-class {
+        font-size: 18px;
+    }
+}
